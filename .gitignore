@@ -1,0 +1,31 @@
+# Bo qua cache va moi truong ao
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Bo qua cac file trong so model nang
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Bo qua database va video
+*.db
+*.sqlite3
+*.mp4
+*.avi
+
+# Bo qua folder data anh va ket qua train
+MohinhAI/**/dataset/
+MohinhAI/**/data/
+MohinhAI/**/images/
+MohinhAI/**/labels/
+MohinhAI/**/runs/
+PC/GiaoDienOGa/OGa/
+
+# Bo qua toan bo dinh dang anh lon
+*.jpg
+*.jpeg
+*.png
+!PC/GiaoDienOGa/database/logo_start.png

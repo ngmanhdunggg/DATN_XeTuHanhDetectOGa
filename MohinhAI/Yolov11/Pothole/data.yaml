@@ -1,0 +1,6 @@
+names:
+- pothole
+nc: 1
+path: C:\Users\dung2\Desktop\Pothole\dataset_yolo
+train: images/train
+val: images/val
